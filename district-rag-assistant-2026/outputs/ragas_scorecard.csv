@@ -1,0 +1,21 @@
+question,doc_type,faithfulness,context_precision,context_recall,answer_preview
+What are the graduation credit requirements for the College Preparatory pathway?,graduation_policy,0.2679,1.0,0.6433,I could not find that information in the district documents.
+What scoring levels are used in Mathematics assessment rubrics?,assessment_rubric,0.2344,1.0,0.6978,I could not find that information in the district documents.
+How did the STEM Academy perform against its benchmarks?,program_evaluation,0.2754,1.0,0.6632,I could not find that information in the district documents.
+What waiver provisions exist for graduation requirements?,graduation_policy,0.2385,1.0,0.5939,I could not find that information in the district documents.
+What is the assessment component weighting in rubrics?,assessment_rubric,0.2162,1.0,0.6025,I could not find that information in the district documents.
+What recommendations were made for district programs?,program_evaluation,0.2955,1.0,0.4642,I could not find that information in the district documents.
+What is the credit requirement for the International Baccalaureate pathway?,graduation_policy,0.2481,1.0,0.5653,I could not find that information in the district documents.
+How are performance tasks scored in assessment rubrics?,assessment_rubric,0.2162,1.0,0.524,I could not find that information in the district documents.
+What attendance requirements exist for graduation?,graduation_policy,0.2719,1.0,0.4902,I could not find that information in the district documents.
+How is program budget utilization reported?,program_evaluation,0.2832,1.0,0.4641,I could not find that information in the district documents.
+What criteria are used to evaluate student content knowledge in rubrics?,assessment_rubric,0.2374,1.0,0.4627,I could not find that information in the district documents.
+What community service requirements exist for graduation pathways?,graduation_policy,0.2524,1.0,0.4656,I could not find that information in the district documents.
+What is the stakeholder satisfaction benchmark for program evaluations?,program_evaluation,0.2652,1.0,0.365,I could not find that information in the district documents.
+How are assessment results reported at the district level?,assessment_rubric,0.2157,1.0,0.5121,I could not find that information in the district documents.
+What is the dual enrollment credit substitution limit?,graduation_policy,0.2481,1.0,0.5287,I could not find that information in the district documents.
+What is the academic progress benchmark for program evaluations?,program_evaluation,0.2754,0.4,0.4582,I could not find that information in the district documents.
+How often are assessment rubrics reviewed?,assessment_rubric,0.2162,1.0,0.51,I could not find that information in the district documents.
+What appeal process exists for graduation credit decisions?,graduation_policy,0.3155,1.0,0.5277,I could not find that information in the district documents.
+What staffing challenges are noted in program evaluations?,program_evaluation,0.2872,1.0,0.3833,I could not find that information in the district documents.
+What communication of reasoning criteria is used in rubrics?,assessment_rubric,0.2199,1.0,0.6316,I could not find that information in the district documents.
