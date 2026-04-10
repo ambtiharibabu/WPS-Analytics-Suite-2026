@@ -1,0 +1,21 @@
+=== DISTRICT ASSESSMENT PIPELINE LOG ===
+
+RAW DATA LOADED:
+  assessments : 1,545 rows
+  attendance  : 1,000 rows
+  demographics:   600 rows
+
+JOIN RESULTS:
+  Matched rows   : 1,281
+  Unmatched rows : 264 — demographics had 100 fake IDs
+
+CLEANING DECISIONS:
+  Duplicates dropped : 45 — exact match on student+school+subject+date+score
+  Null scores dropped: 126 — cannot impute a test score
+  pass_fail rebuilt  : derived from score >= 60 threshold
+  Demographic nulls  : filled with 'Unknown'/0 — preserve assessment records
+
+FINAL FACT TABLE:
+  Total rows  : 1,374
+  At-risk rows: 414
+  Columns     : ['student_id', 'school_id', 'grade_level', 'subject', 'assessment_date', 'score', 'pass_fail', 'ethnicity', 'gender', 'free_lunch_eligible', 'special_ed_flag', 'at_risk_flag']

@@ -1,0 +1,601 @@
+student_id,ethnicity,gender,free_lunch_eligible,special_ed_flag,grade_level
+STU0379,Black,Non-binary,1,0,6
+STU9015,White,F,1,0,5
+STU0564,Asian,F,0,0,5
+STU0500,Hispanic,M,0,0,7
+STU0554,Two or More,F,0,1,7
+STU0525,Hispanic,M,0,0,8
+STU9056,Two or More,Non-binary,1,0,4
+STU0055,Black,Non-binary,1,1,4
+STU0003,Asian,M,1,0,5
+STU0024,White,F,0,0,7
+STU0121,White,Non-binary,1,0,6
+STU9012,White,Non-binary,0,0,4
+STU0452,Asian,Non-binary,0,0,3
+STU0064,Black,M,0,1,6
+STU0015,Asian,Non-binary,0,1,4
+STU0251,Two or More,Non-binary,1,1,8
+STU0056,Black,Non-binary,1,0,6
+STU0105,Black,F,0,0,7
+STU0095,Black,M,0,0,8
+STU9029,White,Non-binary,0,0,7
+STU0117,Asian,Non-binary,1,0,7
+STU0129,White,Non-binary,1,0,6
+STU0456,Black,Non-binary,0,1,7
+STU0396,Asian,F,1,0,4
+STU0524,Hispanic,Non-binary,1,0,5
+STU0502,Asian,Non-binary,0,0,8
+STU0066,Black,M,1,0,8
+STU9066,Hispanic,Non-binary,1,1,8
+STU0069,White,F,0,1,5
+STU0077,Two or More,Non-binary,1,0,4
+STU9014,Two or More,Non-binary,1,0,7
+STU0078,Two or More,F,0,0,8
+STU9072,Black,Non-binary,0,0,7
+STU0239,Hispanic,Non-binary,1,0,8
+STU9004,White,M,0,0,3
+STU0166,Asian,Non-binary,0,0,3
+STU0380,Hispanic,F,1,1,6
+STU0352,Asian,M,1,0,3
+STU9042,Black,F,0,1,5
+STU0109,Asian,M,0,0,6
+STU0312,White,M,1,0,5
+STU9061,Asian,M,1,0,7
+STU9064,Hispanic,Non-binary,0,0,3
+STU9007,White,M,0,0,5
+STU0054,Asian,F,0,0,3
+STU0480,White,M,1,0,7
+STU0001,White,F,0,0,7
+STU0196,Black,Non-binary,0,1,8
+STU0463,White,Non-binary,0,1,3
+STU0141,Two or More,M,0,0,5
+STU9022,Hispanic,F,0,0,3
+STU0393,Asian,M,0,0,6
+STU0326,Two or More,F,1,0,8
+STU0284,Two or More,M,1,0,5
+STU0385,White,M,1,0,6
+STU0540,Hispanic,F,0,1,8
+STU9033,Two or More,M,0,0,7
+STU9081,Two or More,Non-binary,1,0,5
+STU0425,Black,M,1,0,5
+STU0271,Asian,F,1,1,3
+STU9041,Asian,M,1,0,5
+STU0331,Two or More,F,1,0,6
+STU0395,Black,Non-binary,0,0,4
+STU0520,Hispanic,F,0,0,8
+STU0340,Hispanic,Non-binary,0,0,5
+STU0293,Asian,M,1,0,8
+STU0481,Asian,Non-binary,0,0,8
+STU0229,Hispanic,M,0,1,4
+STU0151,White,Non-binary,1,0,8
+STU0289,White,F,0,0,3
+STU0343,Asian,M,0,0,3
+STU0423,White,Non-binary,1,0,6
+STU0252,White,F,1,0,4
+STU0339,White,Non-binary,0,0,6
+STU9062,Two or More,Non-binary,1,0,8
+STU0063,Black,F,0,1,6
+STU9019,Asian,F,0,1,5
+STU0193,Two or More,M,1,0,8
+STU9067,Asian,M,0,0,8
+STU0158,Hispanic,M,0,1,3
+STU9094,White,Non-binary,1,0,8
+STU0448,Black,Non-binary,1,0,7
+STU0598,Black,F,1,0,3
+STU0590,Asian,M,0,1,4
+STU0189,White,Non-binary,0,1,6
+STU0530,Hispanic,M,0,0,6
+STU0488,White,M,0,0,6
+STU0213,Two or More,F,1,0,6
+STU0119,Two or More,M,0,0,8
+STU0510,Black,M,0,0,5
+STU0556,Black,M,1,1,4
+STU9048,Hispanic,F,1,0,5
+STU0194,Two or More,M,0,0,8
+STU0457,White,F,1,0,6
+STU0164,Hispanic,M,1,0,4
+STU0581,Two or More,F,0,0,8
+STU9011,Hispanic,F,0,0,8
+STU0436,Black,F,0,0,3
+STU0278,White,M,1,0,7
+STU0208,Hispanic,F,0,0,8
+STU0440,Hispanic,Non-binary,0,0,8
+STU0111,Asian,Non-binary,1,0,8
+STU0492,Two or More,F,1,0,8
+STU0377,Asian,Non-binary,1,0,8
+STU9052,Asian,F,0,1,7
+STU0088,Black,M,0,0,8
+STU0353,White,F,1,0,5
+STU0518,Hispanic,F,1,0,3
+STU0249,Asian,F,0,1,4
+STU0414,Black,M,1,1,6
+STU0464,Asian,Non-binary,1,1,6
+STU0073,Asian,F,1,0,8
+STU0084,Asian,M,0,0,4
+STU9075,White,Non-binary,0,0,6
+STU0290,Two or More,F,1,0,4
+STU0100,Asian,M,1,0,7
+STU9018,Asian,F,1,0,4
+STU0558,White,F,0,1,7
+STU9087,Asian,M,1,0,8
+STU9099,White,F,0,0,8
+STU0552,Two or More,M,1,0,4
+STU9032,Asian,F,1,0,8
+STU0503,White,F,1,0,8
+STU0238,Hispanic,M,0,0,3
+STU0256,Hispanic,F,0,0,5
+STU0052,White,Non-binary,0,0,5
+STU0578,Hispanic,F,1,1,6
+STU0519,Black,Non-binary,0,0,5
+STU0559,Hispanic,Non-binary,0,0,4
+STU0082,Asian,M,1,0,7
+STU0411,Two or More,Non-binary,1,0,8
+STU0324,White,M,0,1,3
+STU0033,Hispanic,M,1,1,6
+STU0205,Asian,M,0,0,6
+STU0202,Two or More,Non-binary,0,1,3
+STU0131,Asian,Non-binary,1,0,3
+STU0333,Black,M,0,0,7
+STU0451,Black,Non-binary,1,0,3
+STU0076,White,Non-binary,1,0,8
+STU0467,Hispanic,F,1,0,7
+STU0248,Two or More,F,0,0,5
+STU0043,White,Non-binary,1,0,6
+STU0341,Black,M,0,0,8
+STU0245,Black,F,1,1,5
+STU9049,Hispanic,F,1,0,5
+STU9090,Two or More,M,0,0,8
+STU0025,Two or More,M,1,1,4
+STU0366,Asian,F,1,0,8
+STU9017,Black,Non-binary,1,0,5
+STU0442,Two or More,F,1,0,4
+STU0548,Black,Non-binary,1,0,6
+STU0292,Black,F,0,1,8
+STU0136,Hispanic,Non-binary,1,0,3
+STU0030,White,M,0,0,4
+STU0397,Black,M,0,0,3
+STU0071,Hispanic,M,0,0,7
+STU0561,Hispanic,M,1,0,8
+STU0148,Hispanic,Non-binary,0,0,8
+STU0533,White,M,0,0,3
+STU9043,Hispanic,M,1,0,4
+STU0299,Hispanic,Non-binary,0,1,5
+STU0012,Two or More,M,1,0,8
+STU9057,Asian,Non-binary,0,1,5
+STU0195,Two or More,M,1,0,7
+STU9035,Hispanic,M,0,0,5
+STU9001,White,Non-binary,0,0,8
+STU0399,Hispanic,M,0,0,4
+STU0573,White,F,1,1,7
+STU9093,Black,M,1,0,5
+STU0441,White,Non-binary,0,0,5
+STU0315,White,M,0,0,6
+STU0122,Black,Non-binary,0,1,3
+STU0236,Asian,M,0,0,7
+STU0273,Black,Non-binary,0,0,8
+STU0276,Black,F,1,1,5
+STU0437,Asian,F,1,0,7
+STU0459,White,M,0,0,8
+STU0565,Black,F,1,1,5
+STU0367,Asian,F,1,1,4
+STU0026,White,Non-binary,1,1,3
+STU0473,White,F,1,0,6
+STU9008,Black,M,1,0,4
+STU0594,Two or More,M,0,0,3
+STU0344,Asian,F,0,0,5
+STU0537,White,M,1,1,4
+STU0449,Black,Non-binary,1,0,4
+STU9065,Asian,Non-binary,1,1,6
+STU0279,White,F,0,0,3
+STU0192,Hispanic,F,1,0,4
+STU0197,White,Non-binary,1,0,6
+STU9073,Asian,M,1,0,5
+STU0038,Black,Non-binary,1,0,7
+STU0306,White,Non-binary,1,0,8
+STU0147,Black,Non-binary,0,0,7
+STU0174,Asian,M,0,1,5
+STU0347,Asian,M,0,0,8
+STU0212,White,F,1,0,7
+STU0175,Black,Non-binary,1,0,4
+STU0186,Black,Non-binary,0,0,4
+STU0494,Asian,Non-binary,1,0,5
+STU0123,Two or More,M,1,0,7
+STU0080,Black,M,1,1,7
+STU0228,Black,M,1,1,4
+STU0115,Black,Non-binary,0,0,3
+STU0231,Asian,M,0,0,5
+STU0165,Black,Non-binary,1,0,5
+STU0490,Black,F,1,0,8
+STU0415,White,Non-binary,0,0,8
+STU0019,Hispanic,Non-binary,0,0,4
+STU9060,Asian,F,0,0,5
+STU0127,White,M,1,0,3
+STU0416,Asian,M,1,1,4
+STU0135,Asian,Non-binary,1,0,7
+STU0582,Asian,F,0,0,6
+STU0079,Black,M,1,0,4
+STU0568,Two or More,M,1,0,3
+STU0035,Hispanic,F,1,0,4
+STU0579,Black,Non-binary,1,0,8
+STU0275,Asian,Non-binary,1,1,4
+STU0264,Black,Non-binary,0,0,5
+STU0246,Two or More,Non-binary,0,0,8
+STU9038,White,F,0,0,4
+STU0368,White,M,0,0,3
+STU0508,Black,F,1,0,6
+STU0005,Black,M,1,1,7
+STU0553,Hispanic,Non-binary,1,1,8
+STU0124,White,Non-binary,0,0,6
+STU0489,White,M,1,0,4
+STU0509,Hispanic,Non-binary,0,0,8
+STU0549,White,F,0,0,4
+STU0018,White,M,0,0,5
+STU0171,Asian,Non-binary,1,0,7
+STU0409,Black,F,0,1,7
+STU0181,Hispanic,M,0,0,4
+STU0274,White,Non-binary,1,0,5
+STU9020,Hispanic,Non-binary,1,0,6
+STU0455,White,M,0,0,5
+STU9098,Two or More,F,1,0,4
+STU9096,Two or More,F,1,0,5
+STU0214,Black,F,0,0,6
+STU0215,Hispanic,F,1,0,4
+STU0020,Hispanic,M,1,0,8
+STU0302,White,M,1,0,7
+STU9013,Black,F,1,0,8
+STU0597,White,Non-binary,1,0,7
+STU0183,Hispanic,F,0,0,4
+STU0250,Black,M,1,1,8
+STU0221,Black,F,1,0,6
+STU0323,Asian,Non-binary,1,0,3
+STU0471,Two or More,M,0,0,7
+STU9026,Hispanic,M,1,0,5
+STU0058,Asian,F,0,0,3
+STU0430,Black,M,0,1,8
+STU9036,Black,M,1,1,8
+STU0445,Hispanic,F,0,0,5
+STU0318,White,F,1,0,3
+STU0365,Hispanic,F,0,0,3
+STU0168,Hispanic,Non-binary,0,1,7
+STU0029,Two or More,F,1,0,8
+STU0363,Two or More,F,0,0,4
+STU0261,Hispanic,F,1,0,3
+STU0247,Asian,F,1,1,4
+STU0102,Hispanic,Non-binary,0,0,5
+STU9083,Black,Non-binary,1,0,5
+STU0418,Hispanic,Non-binary,1,0,4
+STU0595,Asian,M,0,1,7
+STU0394,Asian,M,0,0,5
+STU0531,Hispanic,Non-binary,1,1,6
+STU9034,Two or More,M,1,0,8
+STU0497,Two or More,Non-binary,0,0,8
+STU0349,Black,F,0,1,5
+STU0139,Asian,F,1,0,8
+STU0446,Asian,Non-binary,1,0,6
+STU9097,Hispanic,Non-binary,1,0,5
+STU0308,Black,Non-binary,1,1,7
+STU0130,White,M,1,0,7
+STU0087,Black,Non-binary,0,0,4
+STU9068,Asian,M,1,0,7
+STU0217,Two or More,M,0,0,5
+STU0567,Two or More,Non-binary,0,0,8
+STU0332,Black,F,0,0,8
+STU0285,Black,Non-binary,1,1,4
+STU0134,Two or More,F,1,0,4
+STU0328,Asian,M,0,0,7
+STU0599,Hispanic,F,0,0,8
+STU0081,Black,M,1,0,4
+STU0132,Two or More,Non-binary,0,0,3
+STU0450,Hispanic,M,1,0,4
+STU9023,White,Non-binary,0,0,5
+STU0346,Asian,M,1,0,8
+STU0381,Asian,M,1,0,6
+STU0334,Black,M,1,1,7
+STU0390,Two or More,F,0,1,3
+STU0354,Asian,F,1,0,5
+STU0584,Asian,F,0,1,8
+STU0176,Two or More,Non-binary,1,1,3
+STU0526,Asian,M,1,0,6
+STU0407,Black,Non-binary,0,0,4
+STU0068,Hispanic,F,1,0,4
+STU0539,Two or More,F,0,0,5
+STU0516,Two or More,Non-binary,1,0,7
+STU0153,Asian,M,0,0,7
+STU0447,Hispanic,Non-binary,1,0,7
+STU0495,White,F,1,1,7
+STU0527,Hispanic,F,0,1,4
+STU0004,Asian,F,0,0,5
+STU0042,Two or More,F,1,0,8
+STU0401,White,M,0,1,6
+STU0126,White,M,1,0,6
+STU9009,Hispanic,F,0,0,5
+STU0378,Two or More,F,0,1,8
+STU0101,Hispanic,M,0,0,4
+STU0429,Two or More,Non-binary,0,1,6
+STU0426,Black,Non-binary,1,0,8
+STU9070,Two or More,Non-binary,1,0,6
+STU0435,Asian,M,1,1,7
+STU0260,Asian,M,0,0,5
+STU9028,Black,F,1,0,4
+STU0410,Hispanic,M,0,0,7
+STU0356,White,Non-binary,0,1,8
+STU0384,Two or More,F,1,1,3
+STU0240,White,Non-binary,1,0,7
+STU0227,Hispanic,M,0,0,5
+STU9005,White,Non-binary,1,0,5
+STU0234,Hispanic,Non-binary,0,0,7
+STU0257,Black,Non-binary,0,0,4
+STU9054,Black,M,1,0,4
+STU9086,Asian,F,1,0,3
+STU0244,White,F,0,0,8
+STU0108,White,Non-binary,0,0,6
+STU9055,Two or More,M,0,0,8
+STU0482,Asian,Non-binary,1,0,5
+STU0336,Asian,M,1,0,5
+STU0327,Asian,M,0,0,6
+STU0466,Asian,Non-binary,0,0,6
+STU0072,Two or More,Non-binary,1,0,4
+STU0513,Two or More,Non-binary,1,1,3
+STU9084,Asian,Non-binary,0,1,3
+STU0454,Two or More,M,0,0,5
+STU0373,Black,F,1,1,8
+STU0403,Black,F,1,0,6
+STU0268,Two or More,F,1,0,6
+STU0408,Black,M,1,0,7
+STU0170,Two or More,Non-binary,0,0,8
+STU0253,Black,F,1,0,5
+STU0125,Black,M,0,0,5
+STU0357,White,F,1,0,5
+STU0008,Two or More,F,0,0,8
+STU0358,Black,M,1,0,4
+STU0443,Asian,Non-binary,0,0,8
+STU0106,Black,Non-binary,0,0,7
+STU0002,Black,M,1,0,4
+STU0433,Asian,F,1,1,7
+STU9076,Black,M,1,0,5
+STU0201,Hispanic,F,1,0,3
+STU0345,White,F,1,1,7
+STU0286,Two or More,F,1,0,5
+STU0514,Hispanic,F,1,0,6
+STU0265,Asian,F,1,0,4
+STU0421,White,M,1,0,3
+STU0438,Hispanic,F,0,0,4
+STU0512,Hispanic,Non-binary,1,0,3
+STU9089,Two or More,M,0,0,5
+STU0475,Two or More,Non-binary,1,0,6
+STU0307,White,M,0,0,7
+STU0211,Black,M,0,0,7
+STU0091,Two or More,F,0,0,6
+STU0047,White,Non-binary,0,0,3
+STU0120,Two or More,Non-binary,1,1,3
+STU0522,Hispanic,M,1,0,4
+STU0465,Asian,Non-binary,0,0,4
+STU9002,Black,M,0,0,8
+STU0014,Black,F,1,1,4
+STU0090,White,M,0,1,8
+STU0585,Asian,F,0,1,7
+STU0006,Asian,M,1,0,8
+STU0113,Asian,F,1,0,3
+STU0338,Asian,Non-binary,1,1,7
+STU0472,White,F,0,0,7
+STU0086,Asian,M,1,0,4
+STU0258,Black,F,1,0,4
+STU9050,Black,M,1,1,3
+STU0154,Two or More,M,0,1,8
+STU0314,Hispanic,F,1,0,6
+STU0104,Hispanic,F,1,1,6
+STU0150,Hispanic,F,1,0,4
+STU0232,Black,F,1,1,4
+STU0591,White,M,0,0,6
+STU0140,Black,M,0,0,8
+STU0458,White,M,0,0,3
+STU0161,Two or More,F,1,0,5
+STU0583,White,F,1,0,4
+STU0484,Asian,F,0,0,4
+STU0177,Hispanic,Non-binary,0,0,5
+STU0092,Two or More,F,1,0,4
+STU0413,Hispanic,M,0,0,3
+STU0511,Black,M,0,1,7
+STU0222,Black,Non-binary,0,0,7
+STU9030,White,M,0,0,4
+STU9046,Black,Non-binary,0,0,6
+STU0133,White,M,0,1,4
+STU0298,White,M,1,0,6
+STU0094,White,F,0,0,8
+STU0103,White,M,0,0,6
+STU0096,White,M,1,1,7
+STU0428,Asian,Non-binary,1,1,7
+STU9069,Asian,Non-binary,1,1,5
+STU0386,Two or More,F,0,1,4
+STU0203,Hispanic,M,0,0,5
+STU0243,Hispanic,Non-binary,1,1,6
+STU9091,Black,F,0,0,6
+STU0468,White,M,0,1,8
+STU9000,White,F,0,0,6
+STU0470,White,M,0,0,6
+STU0051,Black,F,1,1,8
+STU0146,Asian,F,0,1,4
+STU0235,Asian,M,0,0,8
+STU0254,Hispanic,F,1,0,5
+STU0143,Asian,F,1,0,7
+STU0156,Black,F,1,0,6
+STU9085,Hispanic,F,1,0,5
+STU0145,Two or More,M,0,0,4
+STU0281,Two or More,F,0,0,7
+STU0483,White,Non-binary,1,0,6
+STU0288,Asian,F,1,0,7
+STU0301,Black,F,1,0,7
+STU9059,Two or More,M,1,1,6
+STU0036,Two or More,M,0,0,6
+STU0137,Black,Non-binary,1,0,4
+STU0350,White,M,0,1,5
+STU0128,Asian,M,0,0,5
+STU0348,Hispanic,M,0,1,7
+STU9053,White,F,0,1,7
+STU0041,Two or More,F,0,0,3
+STU0142,White,M,1,1,3
+STU9092,White,F,0,1,3
+STU0364,Hispanic,Non-binary,1,0,7
+STU0157,Black,F,1,0,8
+STU0097,Black,Non-binary,0,0,7
+STU0107,White,M,0,1,6
+STU0469,Black,F,1,1,8
+STU0330,Asian,M,1,0,3
+STU0432,White,Non-binary,0,0,4
+STU0191,Asian,M,0,0,6
+STU9021,Asian,F,1,0,3
+STU0048,White,M,1,0,5
+STU0283,Hispanic,F,1,1,4
+STU0589,Asian,F,0,0,5
+STU0361,Hispanic,F,0,1,6
+STU0110,Asian,Non-binary,0,1,6
+STU0023,White,F,0,0,5
+STU0114,White,Non-binary,1,1,3
+STU0059,Hispanic,M,0,0,4
+STU0190,Two or More,F,1,0,8
+STU0007,White,M,0,1,4
+STU0287,Hispanic,M,1,0,8
+STU9027,Black,Non-binary,0,0,4
+STU9024,Black,F,0,0,7
+STU0032,Hispanic,M,0,0,4
+STU0521,Asian,F,0,0,7
+STU0382,Black,Non-binary,0,0,4
+STU9074,Hispanic,F,1,0,8
+STU0551,Two or More,M,1,0,8
+STU0417,Black,M,1,0,8
+STU0138,White,Non-binary,1,1,5
+STU9010,Two or More,F,1,1,6
+STU0169,White,F,1,0,4
+STU9063,Asian,M,0,0,3
+STU9006,Hispanic,Non-binary,0,0,3
+STU0230,Asian,M,0,0,5
+STU9058,Black,Non-binary,1,0,8
+STU0372,Asian,F,1,0,8
+STU0267,Two or More,Non-binary,1,0,6
+STU0555,Hispanic,F,0,1,4
+STU9037,Black,M,0,0,5
+STU0098,Asian,M,1,1,8
+STU0504,Asian,Non-binary,1,1,4
+STU0225,Black,Non-binary,1,0,7
+STU0144,White,M,0,0,6
+STU0563,Hispanic,F,1,0,3
+STU0517,White,M,1,0,4
+STU0152,White,F,0,0,8
+STU0572,Black,Non-binary,1,0,5
+STU9082,Hispanic,M,1,0,4
+STU0237,White,F,1,1,7
+STU0550,Two or More,Non-binary,0,1,8
+STU0319,Hispanic,F,1,1,3
+STU0337,Black,F,0,1,7
+STU0528,Hispanic,F,1,1,7
+STU0355,Two or More,M,1,0,6
+STU0493,Black,F,0,0,8
+STU0305,Two or More,F,1,0,3
+STU0523,Two or More,M,0,0,6
+STU0216,White,F,0,1,3
+STU0062,Hispanic,F,1,0,7
+STU0577,Black,Non-binary,0,1,7
+STU0391,White,Non-binary,1,0,4
+STU0600,Asian,Non-binary,1,0,7
+STU0093,White,M,1,0,5
+STU0027,White,F,0,0,4
+STU9080,Black,M,1,0,6
+STU0592,White,F,0,0,5
+STU0474,Hispanic,F,1,0,3
+STU0300,White,M,0,0,3
+STU0028,Black,M,0,1,5
+STU0529,Hispanic,Non-binary,1,0,6
+STU0405,Two or More,F,0,0,3
+STU0322,Black,M,1,0,7
+STU0291,Black,Non-binary,0,0,3
+STU0404,White,M,1,0,7
+STU0383,Two or More,M,1,0,3
+STU0039,Black,F,1,0,7
+STU0506,Asian,M,0,0,7
+STU0034,Asian,Non-binary,0,0,8
+STU0207,Asian,Non-binary,1,1,5
+STU9031,Black,M,0,0,6
+STU0277,White,M,1,0,8
+STU9039,Black,Non-binary,1,1,8
+STU0392,Hispanic,F,1,0,4
+STU0325,Hispanic,Non-binary,0,0,6
+STU0304,Asian,Non-binary,1,0,7
+STU0479,Hispanic,Non-binary,1,0,5
+STU0586,Two or More,F,1,0,3
+STU9047,Hispanic,F,0,0,6
+STU0535,White,F,1,1,3
+STU0021,Two or More,F,0,1,5
+STU0536,Black,F,0,0,5
+STU0016,Black,M,0,0,7
+STU0569,Two or More,Non-binary,0,0,3
+STU0444,Hispanic,F,1,0,3
+STU0562,White,Non-binary,0,0,4
+STU0321,Hispanic,F,1,0,8
+STU0369,Two or More,Non-binary,1,0,3
+STU0049,Asian,M,1,1,3
+STU0053,Black,F,0,0,3
+STU0439,Hispanic,Non-binary,0,0,6
+STU0200,Hispanic,F,1,1,7
+STU0226,Hispanic,F,0,0,3
+STU0182,Black,M,0,0,8
+STU0180,Hispanic,F,0,0,4
+STU0359,Two or More,M,1,0,8
+STU0116,Two or More,F,0,1,7
+STU0241,White,M,1,0,7
+STU0017,Asian,M,1,0,4
+STU0462,Asian,Non-binary,1,0,5
+STU0374,White,Non-binary,0,1,5
+STU0370,Two or More,F,0,0,6
+STU0220,Two or More,M,1,0,7
+STU0424,White,Non-binary,0,0,4
+STU0412,Hispanic,M,0,0,8
+STU9045,Hispanic,Non-binary,1,0,4
+STU9095,Black,M,0,0,8
+STU0507,Hispanic,Non-binary,0,1,3
+STU0060,Black,M,1,0,4
+STU0496,Hispanic,F,1,1,6
+STU0546,Two or More,Non-binary,1,1,8
+STU0478,White,Non-binary,0,0,6
+STU0593,Black,M,0,1,6
+STU0419,Black,F,0,0,3
+STU0566,Asian,F,0,0,3
+STU0184,Asian,Non-binary,1,0,6
+STU0083,Hispanic,F,0,0,5
+STU0570,White,F,0,1,7
+STU0204,Hispanic,Non-binary,1,0,5
+STU0198,White,F,0,0,6
+STU0545,Asian,F,0,1,4
+STU9040,Asian,M,0,0,8
+STU0210,Asian,F,0,0,3
+STU0576,Black,Non-binary,1,0,8
+STU0159,Hispanic,F,1,1,3
+STU9077,Hispanic,Non-binary,0,0,5
+STU0434,Black,M,0,1,7
+STU0187,Hispanic,M,0,0,8
+STU0075,Two or More,F,1,0,6
+STU0499,White,M,0,0,8
+STU0515,Asian,F,1,0,8
+STU0185,Asian,Non-binary,1,0,6
+STU0269,Asian,Non-binary,0,0,5
+STU0538,Hispanic,F,1,1,4
+STU0501,Two or More,F,1,0,6
+STU0461,Two or More,M,0,0,7
+STU9025,White,M,1,0,4
+STU0317,Asian,F,0,0,8
+STU9044,Two or More,F,0,0,8
+STU0557,White,M,1,0,3
+STU9071,Black,M,1,0,5
+STU0388,Two or More,F,0,0,5
+STU9078,White,Non-binary,0,0,5
+STU0376,Two or More,Non-binary,0,0,6
+STU0580,Black,Non-binary,0,0,6
+STU0099,White,F,1,0,3
+STU9088,Two or More,Non-binary,0,0,3
+STU0209,Asian,Non-binary,1,0,6
+STU9003,Two or More,Non-binary,0,0,8
+STU9051,Hispanic,Non-binary,0,0,4
+STU0242,White,M,0,0,8
+STU9016,White,M,0,0,4
+STU0067,Black,F,0,1,4
+STU0179,Two or More,M,0,0,8
+STU9079,White,F,1,1,4
