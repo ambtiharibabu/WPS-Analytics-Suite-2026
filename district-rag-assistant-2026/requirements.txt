@@ -1,0 +1,7 @@
+chromadb==0.6.3
+faker
+python-dotenv
+requests
+matplotlib
+streamlit
+numpy

@@ -3,6 +3,9 @@ app.py
 Streamlit chatbot UI — Wichita Public Schools District Data Q&A Assistant.
 WPS brand colors: Navy #003087, Gold #FFB81C
 Run: streamlit run app.py
+
+Auto-ingest: if ChromaDB is empty on startup (e.g. fresh Streamlit Cloud deploy),
+documents are generated and ingested automatically before the UI loads.
 """
 
 import streamlit as st
@@ -10,6 +13,72 @@ import sys
 import os
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "src"))
+
+# ── Auto-ingest on first run ──────────────────────────────────────────────────
+# On Streamlit Cloud, chroma_db/ doesn't exist — build it automatically.
+def ensure_chroma_ready():
+    import chromadb
+    from chromadb.utils import embedding_functions
+
+    chroma_dir = os.path.join(os.path.dirname(__file__), "chroma_db")
+    docs_dir   = os.path.join(os.path.dirname(__file__), "data", "documents")
+
+    # Check if collection already has chunks
+    try:
+        client     = chromadb.PersistentClient(path=chroma_dir)
+        embed_fn   = embedding_functions.DefaultEmbeddingFunction()
+        collection = client.get_collection("district_docs", embedding_function=embed_fn)
+        if collection.count() > 0:
+            return  # already ingested, nothing to do
+    except Exception:
+        pass  # collection doesn't exist yet — fall through to ingest
+
+    # Generate documents if missing
+    if not os.path.exists(docs_dir) or len(os.listdir(docs_dir)) < 60:
+        st.info("⚙️ First run — generating synthetic documents...")
+        import generate_documents  # runs the script
+
+    # Ingest into ChromaDB
+    st.info("⚙️ Building vector index — this takes ~2 minutes on first run...")
+    import glob, chromadb
+    from chromadb.utils import embedding_functions
+
+    embed_fn   = embedding_functions.DefaultEmbeddingFunction()
+    client     = chromadb.PersistentClient(path=chroma_dir)
+
+    try:
+        client.delete_collection("district_docs")
+    except Exception:
+        pass
+
+    collection = client.create_collection("district_docs", embedding_function=embed_fn)
+
+    def chunk_text(text, chunk_size=300, overlap=50):
+        words, chunks, start = text.split(), [], 0
+        while start < len(words):
+            chunks.append(" ".join(words[start:start + chunk_size]))
+            start += chunk_size - overlap
+        return chunks
+
+    txt_files = glob.glob(os.path.join(docs_dir, "*.txt"))
+    ids, documents, metadatas = [], [], []
+
+    for filepath in txt_files:
+        filename = os.path.basename(filepath)
+        with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
+            text = f.read()
+        for i, chunk in enumerate(chunk_text(text)):
+            ids.append(f"{filename}__chunk_{i}")
+            documents.append(chunk)
+            metadatas.append({"source": filename, "chunk_index": i})
+
+    collection.add(ids=ids, documents=documents, metadatas=metadatas)
+    st.success(f"✅ Index ready — {len(ids)} chunks from {len(txt_files)} documents.")
+    st.rerun()  # reload so the chat UI appears cleanly
+
+ensure_chroma_ready()
+
+# ── Now safe to import retriever and llm ─────────────────────────────────────
 from retriever import retrieve
 from llm import generate_answer
 
@@ -191,7 +260,7 @@ if question:
             chunks = retrieve(question, top_k=top_k)
             if active_filter:
                 filtered = [c for c in chunks if c["source"].startswith(active_filter)]
-                chunks = filtered if filtered else chunks   # fallback if filter yields nothing
+                chunks = filtered if filtered else chunks
             answer  = generate_answer(question, chunks)
             sources = list(dict.fromkeys(c["source"] for c in chunks))
 
