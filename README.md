@@ -1,4 +1,4 @@
-# WPS Analytics Suite — USD 259 Wichita Public Schools
+# WPS Analytics Suite - USD 259 Wichita Public Schools
 
 A two-project analytics portfolio built around real challenges faced by K-12 district data teams.
 Both projects use synthetic data only — no student PII, no real staff records, FERPA-safe by design.
